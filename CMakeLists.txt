@@ -42,9 +42,9 @@ CPM_InitModule(${CPM_MODULE_NAME})
 # Setup source
 #-----------------------------------------------------------------------
 
-set(UNICODE_DIR "${CMAKE_CURRENT_LIST_DIR}/atom-unicode")
-set(ModuleSources "${UNICODE_DIR}/src/Unicode.cpp")
-set(ModuleHeaders "${UNICODE_DIR}/Unicode.hpp")
+set(FILE_DIR "${CMAKE_CURRENT_LIST_DIR}/atom-unicode")
+set(ModuleSources "${FILE_DIR}/src/Unicode.cpp")
+set(ModuleHeaders "${FILE_DIR}/Unicode.hpp")
 
 #-----------------------------------------------------------------------
 # Setup library
